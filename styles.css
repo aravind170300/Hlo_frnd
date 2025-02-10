@@ -1,0 +1,45 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+#image {
+    width: 60%;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.next-page {
+    display: none;
+}
+
+#gifContainer {
+    display: none;
+}
+
+#gif {
+    width: 200px;
+    margin-top: 30px;
+}
